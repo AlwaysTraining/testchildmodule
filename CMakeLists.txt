@@ -1,3 +1,3 @@
 add_library(foo STATIC foo.c)
 
-install(TARGETS foo LIBRARY)
+install(TARGETS foo LIBRARY DESTINATION lib)
